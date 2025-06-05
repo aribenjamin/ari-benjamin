@@ -1,9 +1,9 @@
 github_users:
-  - arisbenjamin
+  - aribenjamin
 
 repo_description_lines_max: 2
 
 github_repos:
   - ZadorLaboratory/ColorMyCells
   - ZadorLaboratory/brain-annotation
-  - ZadorLaboratory/geometric-functionals
+  # - ZadorLaboratory/geometric-functionals
