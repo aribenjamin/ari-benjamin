@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://aribenjamin.github.io/ari-benjamin/sitemap.xml
+Sitemap: https://ari-benjamin.com/sitemap.xml
