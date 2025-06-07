@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-dissertation",
+          title: "dissertation",
+          description: "My PhD thesis on machine learning and neuroscience",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/dissertation/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
@@ -30,21 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-why-do-we-love-a-sauna",
+        },{id: "post-why-do-we-love-a-sauna",
         
           title: "Why do we love a sauna?",
         
