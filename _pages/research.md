@@ -2,13 +2,24 @@
 layout: page
 permalink: /research/
 title: research
-description: 
+description: Neural networks and neuroscience
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
-# Research
 
-## Theme 1
+## AI tools for single-cell genomics
 
-## Theme 2
+## Theoretical neuroscience
+
+### Theory of neuromodulation
+
+
+
+## AI tools for neuroscience
+
+## Theoretical neuroscience
+
+## Neural network theory and optimization
+
+# Older interests

@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I think a lot about neural networks and brains. Or really just brains, with neural networks and AI as an abstract model of them. My work is all about trying to bridge these mathematical abstractions – which I do believe are necessary for neuroscience – with the true biology of the brain.
+I think a lot about neural networks and brains. Or really just brains, with neural networks and AI being an abstract model of them. My work is all about trying to bridge these mathematical abstractions – which I believe are necessary for neuroscience – with the true biology of the brain. To that end I'm interested in the cellular diversity of the brain and especially in neuromodulation. 
 
-To that end I'm interested in the cellular diversity of the brain and especially in neuromodulation. Programmatically my work tends to fall in many fields: AI for single-cell data analysis, theoretical neuroscience, neural network theory, systems neuroscience, and so on.
+Programmatically my work tends to fall in many fields: AI for single-cell data analysis, theoretical neuroscience, neural network theory, systems neuroscience, and so on.
 
 I am currently a postdoctoral fellow in the laboratory of Tony Zador at Cold Spring Harbor Laboratory. Before this I completed my PhD with Konrad Kording at the University of Pennsylvania.  
