@@ -1417,3 +1417,11 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.publication-description {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-size: inherit;
+  color: var(--global-hover-color);
+  line-height: 1.4;
+}
