@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-dissertation",
-          title: "dissertation",
-          description: "My PhD thesis on machine learning and neuroscience",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/dissertation/";
-          },
-        },{id: "nav-blog",
+  },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
