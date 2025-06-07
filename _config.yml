@@ -196,6 +196,7 @@ exclude:
   - _pages/cv.md
   - _pages/books.md
 keep_files:
+  - dissertation
   - CNAME
   - .nojekyll
 
