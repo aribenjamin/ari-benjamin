@@ -1,0 +1,68 @@
+# .github/workflows/build-dissertation.yml
+name: Build and Deploy Dissertation
+
+on:
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [book-updated]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main website
+        uses: actions/checkout@v4
+
+      - name: Checkout book repository
+        uses: actions/checkout@v4
+        with:
+          repository: aribenjamin/machine-learning-for-neuroscience.github.io
+          path: book-source
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Jupyter Book
+        run: |
+          pip install jupyter-book
+
+      - name: Build the book
+        run: |
+          cd book-source
+          jupyter-book build docs
+
+      - name: Deploy book directly to dissertation path
+        run: |
+          # Remove old dissertation build
+          rm -rf dissertation/
+          
+          # Copy the entire built book to root (Jekyll will serve this at /dissertation/)
+          cp -r book-source/docs/_build/html/ dissertation/
+          
+          # Optional: Add a subtle navigation link back to main site
+          find dissertation -name "*.html" -exec sed -i 's|<body[^>]*>|&\n<div style="background: rgba(102, 126, 234, 0.1); padding: 6px; text-align: center; border-bottom: 1px solid rgba(102, 126, 234, 0.2);">\n  <a href="/" style="color: #667eea; text-decoration: none; font-size: 13px; font-weight: 500;">← Ari Benjamin'\''s Website</a>\n</div>|' {} \;
+
+      - name: Configure Jekyll to preserve dissertation files
+        run: |
+          # Add dissertation folder to keep_files in _config.yml if not already there
+          if ! grep -q "dissertation" _config.yml; then
+            sed -i '/keep_files:/a\  - dissertation' _config.yml
+          fi
+
+      - name: Remove any conflicting dissertation page
+        run: |
+          # Remove the empty dissertation.md page since we're serving the book directly
+          rm -f _pages/dissertation.md
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git diff --staged --quiet || git commit -m "Update dissertation build"
+          git push
