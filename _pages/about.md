@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Cold Spring Harbor Laboratory</a>. 
+subtitle: <a href='https://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>. 
 
 profile:
   align: right
@@ -24,8 +24,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a pattern of neural activity which is often interested and curious about its own activity, and the activity of other brains.
+I think a lot about neural networks and brains. Or really just brains, with neural networks and AI as an abstract model of them. My work is all about trying to bridge these mathematical abstractions – which I do believe are necessary for neuroscience – with the true biology of the brain.
 
-Programmatically, I am a neuroscientist and AI researcher. My work falls in categories at various levels of abstraction about the brain, from neural network theory to the analysis of single-cell transcriptomic data. I believe in the necessity of mathematical models but also that all neuroscience needs to directly connect to the biology of the brain. 
+To that end I'm interested in the cellular diversity of the brain and especially in neuromodulation. Programmatically my work tends to fall in many fields: AI for single-cell data analysis, theoretical neuroscience, neural network theory, systems neuroscience, and so on.
 
-I am currently a postdoctoral fellow in the laboratory of Tony Zador at Cold Spring Harbor Laboratory. Before this I completed my PhD with Konrad Kording at the University of Pennsylvania.
+I am currently a postdoctoral fellow in the laboratory of Tony Zador at Cold Spring Harbor Laboratory. Before this I completed my PhD with Konrad Kording at the University of Pennsylvania.  
