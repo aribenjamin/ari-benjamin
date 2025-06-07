@@ -27,9 +27,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Jupyter Book
+      - name: Install Jupyter Book and dependencies
         run: |
           pip install jupyter-book
+          pip install sphinxext-opengraph
+          pip install sphinx-external-toc
 
       - name: Build the book
         run: |

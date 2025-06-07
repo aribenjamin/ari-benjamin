@@ -268,7 +268,7 @@ display_categories:  # these categories will be displayed on the front page of y
 
 scholar:
   last_name: [Benjamin]
-  first_name: [Ari, s.]
+  first_name: [Ari, s., "Ari S"]
 
   style: apa
   locale: en
