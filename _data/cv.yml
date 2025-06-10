@@ -1,21 +1,11 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Ari Benjamin, PhD
-    - name: Email
-      value: ari.s.benjamin@gmail.com
-    - name: Last Updated
-      value: May 30, 2025
-
 - title: Current Position
   type: time_table
   contents:
     - title: Postdoctoral Fellow
       institution: Cold Spring Harbor Laboratory
-      year: Aug. 2022 - Present
+      year: Aug. 2022 - 
       description:
-        - Advisor: Tony Zador
+        - "Advisor: Tony Zador"
         - Neural networks for single-cell transcriptomic analysis
         - Theory of neuromodulation; neuro-inspired AI
 
@@ -38,49 +28,6 @@
     - title: B.A., Physics
       institution: Williams College
       year: 2013
-      description:
-        - Cum Laude, GPA 3.72
-
-- title: Publications Summary
-  type: map
-  contents:
-    - name: Total Citations
-      value: 1015 (as of May 2025)
-    - name: h-index
-      value: 11
-
-- title: Manuscripts in Preparation
-  type: list
-  contents:
-    - "TissueFormer: A Neural Network for Labeling Tissue from Grouped Single-Cell RNA Profiles - Automated labeling of mouse cortical anatomy from spatial transcriptomics"
-    - "Walking the Weight Manifold: A Topological Approach to Conditioning Inspired by Neuromodulation - Theory (for an AI audience) connecting neuromodulation to network flexibility"
-
-- title: Selected First Author Publications
-  type: time_table
-  contents:
-    - title: "Continual learning with the neural tangent ensemble"
-      institution: Neural Information Processing Systems
-      year: 2024
-      description:
-        - Benjamin, Ari S., Christian Pehle, and Kyle Daruwalla
-        - Spotlight paper
-    - title: "A role for cortical interneurons as adversarial discriminators"
-      institution: PLOS Computational Biology
-      year: 2023
-      description:
-        - Benjamin, Ari S., and Konrad P. Kording
-        - Vol. 19, no. 9, e1011484
-    - title: "Efficient neural codes naturally emerge through gradient descent learning"
-      institution: Nature Communications
-      year: 2022
-      description:
-        - Benjamin, Ari S., Ling-Qi Zhang, Cheng Qiu, Alan A. Stocker, and Konrad P. Kording
-        - Vol. 13, no. 1, pp. 1-12
-    - title: "Measuring and regularizing networks in function space"
-      institution: International Conference on Learning Representations
-      year: 2018
-      description:
-        - Benjamin, Ari S., David Rolnick, and Konrad Kording
 
 - title: Teaching Experience
   type: time_table
@@ -114,40 +61,6 @@
         - Built curriculum from scratch, adapting materials to new cultural context and IB curriculum
         - Guided independent research projects
 
-- title: Conference Organization and Talks
-  type: time_table
-  contents:
-    - title: Organizer
-      institution: "Why networks learn what they do; Insights from deep learning theory for neuroscience"
-      year: 2023
-      description:
-        - Computational and Systems Neuroscience (COSYNE) 2023
-    - title: Young Investigator Talk
-      institution: Statistical Analysis of Neural Data (SAND8)
-      year: 2017
-      description:
-        - "Modern machine learning far outperforms GLMs at predicting spikes"
-    - title: Invited Talk
-      institution: Deep Learning Theory reading group, Montreal Institute for Learning Algorithms (MILA)
-      year: 2018
-
-- title: Mentoring Experience
-  type: nested_list
-  contents:
-    - title: Research Advisor to Master's and Undergraduate Researchers
-      items:
-        - Jordan Lei
-        - Jeffery Chang
-        - Piyush Borole
-        - Ryan Jeong
-        - Ryan Guan
-        - Shizhe Feng
-        - Ashly Pinarkyil
-        - Estelle Shen
-    - title: Other Mentoring Roles
-      items:
-        - Mentor for Mentorship Opportunities for Research Engagement 2015, Northwestern University
-
 - title: Academic Service
   type: nested_list
   contents:
@@ -173,25 +86,67 @@
         - Mechanical Engineering Graduate Student Society, President 2016
         - Mechanical Engineering Graduate Student Society, Social chair 2015
 
-- title: Media and Outreach
+- title: Conference Organization
   type: time_table
   contents:
-    - title: Science Society Invited Talk
-      institution: Clubhouse
+    - title: "Why networks learn what they do; Insights from deep learning theory for neuroscience"
+      year: 2023
+      institution: Computational and Systems Neuroscience (COSYNE) 2023
+
+- title: Conference Posters
+  type: time_table
+  contents:
+    - title: "Interpreting networks as mixtures of experts yields an update preserving Dale's law"
+      institution: From Neuroscience to Artificially Intelligent Systems (NAISys)
+      year: 2024
+      description:
+        - "Authors: Ari Benjamin, Christian Pehle, Kyle Daruwalla"
+    - title: "Better cell typing from transcriptomic data via probabilistic models"
+      institution: Computational and Systems Neuroscience (COSYNE)
       year: 2023
       description:
-        - "Efficient codes naturally emerge via gradient descent learning"
-        - Available at https://www.clubhouse.com/room/m7okjW0E
-    - title: BBC Interview
-      institution: "Elon Musk to show off working brain-hacking device"
-      year: 2020
+        - "Authors: Ari Benjamin, Xiaoyin Chen, Tony Zador"
+    - title: "Shared visual illusions between humans and artificial neural networks"
+      institution: Cognitive Computational Neuroscience (CCN)
+      year: 2019
       description:
-        - Available at https://www.bbc.com/news/technology-53921596
-    - title: ABC News Radio Interview
-      institution: Tech Trends
-      year: 2020
+        - "Authors: Ari Benjamin*, Cheng Qiu*, Ling-Qi Zhang*, Konrad P. Kording, and Alan A. Stocker"
+    - title: "Hue tuning curves in V4 change with visual context"
+      institution: Bernstein Conference for Computational Neuroscience
+      year: 2019
       description:
-        - Interviewed for comment on Neuralink
+        - "Authors: Benjamin, Ari S., Pavan Ramkumar, Hugo Fernandes, Matthew A. Smith, and Konrad P. Kording"
+    - title: "Better encoding models with neural nets and boosted trees"
+      institution: Computational and Systems Neuroscience (COSYNE)
+      year: 2017
+      description:
+        - "Authors: Benjamin, Ari S., Hugo L. Fernandes, Tucker Tomlinson, Pavan Ramkumar, Chris VerSteeg, Raeed H. Chowdhury, Lee E. Miller, and Konrad P. Kording"
+    - title: "Color Tuning Curves in V4 Do Not Generalize to Natural Images"
+      institution: Cognitive Computational Neuroscience (CCN)
+      year: 2017
+      description:
+        - "Authors: Ari Benjamin, Pavan Ramkumar, Hugo Fernandes, Matthew A. Smith, and Konrad P. Kording"
+
+- title: Conference Talks
+  type: time_table
+  contents:
+    - title: "Balanced inhibition could help estimate gradients"
+      institution: Computational and Systems Neuroscience (COSYNE)
+      year: 2023
+      description:
+        - "Authors: Estelle Shen (presenting), Konrad Kording, Richard Lange, Ari Benjamin"
+    - title: "Teaching causality to neuroscientists: a case study in causal estimation"
+      institution: Neuromatch Conference 3.0
+      year: 2020
+    - title: "Learning with a wake-sleep discriminator that resembles surprise"
+      institution: Neuromatch Conference 2.0
+      year: 2020
+    - title: "A wake-sleep algorithm for sensory learning that uses a discriminator"
+      institution: Year of Brain Sciences UnRetreat, Mahoney Institute for Neurosciences at UPenn
+      year: 2020
+    - title: "Modern machine learning far outperforms GLMs at predicting spikes"
+      institution: Statistical Analysis of Neural Data (SAND8)
+      year: 2017
 
 - title: Summer Schools and Courses
   type: time_table
@@ -199,27 +154,9 @@
     - title: Student - Analytical Connectionism
       institution: Gatsby Institute for Computational Neuroscience at UCL
       year: 2023
-      description:
-        - Theoretical neuroscience meets deep learning theory meets psychology
     - title: TA - Neuromatch Academy (NMA)
       institution: Computational neuroscience
       year: 2020
     - title: Student - Summer Workshop on the Dynamic Brain (SWDB)
       institution: Allen Institute for Brain Science and University of Washington
       year: 2017
-      description:
-        - A how-to on accessing and analyzing Allen Institute data
-
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Computational Neuroscience
-      items:
-        - Neural network theory and applications
-        - Single-cell transcriptomic analysis
-        - Neuromodulation theory
-    - title: Machine Learning
-      items:
-        - Continual learning
-        - Neuro-inspired AI
-        - Function space regularization

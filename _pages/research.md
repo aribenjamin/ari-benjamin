@@ -6,7 +6,25 @@ nav: true
 nav_order: 1
 ---
 
-<!-- Research page with automatic publication filtering -->
+## Theoretical neuroscience: Neuromodulation and Cellular Diversity
+
+Much of my ongoing research investigates how neuromodulatory systems shape neural computation and how cellular diversity contributes to brain function.
+
+<div class="publications">
+  {% bibliography --query @*[keywords ~= theory] %}
+</div>
+
+---
+
+## Machine learning for single-cell data analysis
+
+I am currently developing machine learning methods to analyze single-cell RNA sequencing data, focusing on how cellular diversity influences neural circuit function.
+
+<div class="publications">
+  {% bibliography --query @*[keywords ~= single-cell] %}
+</div>
+
+---
 
 ## Neural Network Theory
 
@@ -18,40 +36,21 @@ I study the theoretical foundations of neural networks, exploring how learning a
 
 ---
 
-## Neuromodulation and Cellular Diversity
+## Machine learning for analyzing neural recordings
 
-My research investigates how neuromodulatory systems shape neural computation and how cellular diversity contributes to brain function. I'm particularly interested in how different cell types and neuromodulatory states affect learning and memory.
+I am currently developing machine learning methods to analyze neural recordings, focusing on how cellular diversity influences neural circuit function.
 
 <div class="publications">
-  {% bibliography --query @*[keywords ~= neuromodulation] %}
+  {% bibliography --query @*[keywords ~= neural-recordings] %}
 </div>
 
 ---
 
-## Computational Neuroscience
+## Past work
 
-I develop computational models to understand how neural circuits process information and implement learning algorithms. This includes work on biologically plausible learning rules, neural coding principles, and the relationship between structure and function in neural networks.
+### Bio-inspired materials science and molecular dynamics
 
+Before I transitioned to neuroscience, I worked on bio-inspired materials science and molecular dynamics simulations. I was interested in self-assembly and how molecular interactions can lead to complex structures. The common thread that connected these interests was looking at nature in terms of its function, as might an engineer, as well as an interest in complex systems.
 <div class="publications">
-  {% bibliography --query @*[keywords ~= computational-neuroscience] %}
-</div>
-
----
-
-## Machine Learning for Neuroscience
-
-I create and apply machine learning tools to analyze neural data, particularly single-cell datasets. This work focuses on developing methods that can handle the scale and complexity of modern neuroscience data while providing interpretable insights into brain function.
-
-<div class="publications">
-  {% bibliography --query @*[keywords ~= machine-learning] %}
-</div>
-
----
-
-## Systems Neuroscience
-
-I study how neural systems implement computations across multiple scales, from single neurons to brain-wide networks. This includes experimental and theoretical work on how neural representations emerge from network dynamics and learning.
-
-<div class="publications">
-  {% bibliography --query @*[keywords ~= systems-neuroscience] %}
+  {% bibliography --query @*[keywords ~= materials-science] %}
 </div>

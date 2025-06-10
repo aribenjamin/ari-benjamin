@@ -30,6 +30,4 @@ About half my work is theoretical. I study the properties of neural networks, an
 
 The other half of my work is data analysis. I develop machine learning algorithms to analyze neural data. I'm especially interested in data which reveals cellular diversity, such as single-cell RNA sequencing data, and how this diversity relates to the function of neural circuits. 
 
-Programmatically my work tends to fall in many fields: AI for single-cell data analysis, bioinformatics, theoretical neuroscience, neural network theory, systems neuroscience, and so on.
-
 I am currently a postdoctoral fellow in the laboratory of Tony Zador at Cold Spring Harbor Laboratory. Before this I completed my PhD with Konrad Kording at the University of Pennsylvania.  
