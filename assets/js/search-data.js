@@ -30,19 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-phd-dissertation",
-          title: "PhD dissertation",
-          description: "Redirecting in 3 seconds...",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/dissertation/";
-          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-phd-dissertation",
+          title: "PhD dissertation",
+          description: "Redirecting in 3 seconds...",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/dissertation/";
           },
         },{id: "post-why-do-we-love-a-sauna",
         
