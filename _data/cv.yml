@@ -2,96 +2,223 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ari Benjamin, PhD
+    - name: Email
+      value: ari.s.benjamin@gmail.com
+    - name: Last Updated
+      value: May 30, 2025
+
+- title: Current Position
+  type: time_table
+  contents:
+    - title: Postdoctoral Fellow
+      institution: Cold Spring Harbor Laboratory
+      year: Aug. 2022 - Present
+      description:
+        - Advisor: Tony Zador
+        - Neural networks for single-cell transcriptomic analysis
+        - Theory of neuromodulation; neuro-inspired AI
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD, Bioengineering
+      institution: University of Pennsylvania
+      year: July 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Advisor: Konrad Kording"
+        - "Dissertation: Machine Learning as Tool and Theory for Computational Neuroscience"
+    - title: M.S., Mechanical Engineering
+      institution: Northwestern University
+      year: 2016
       description:
-        - Description 1.
-        - Description 2.
+        - Exited PhD program in order to switch disciplines of study
+        - "Advisor: Sinan Keten"
+        - "Topic: Self-assembly & bio-inspired engineering at the nanoscale"
+    - title: B.A., Physics
+      institution: Williams College
+      year: 2013
+      description:
+        - Cum Laude, GPA 3.72
 
-- title: Experience
-  type: time_table
+- title: Publications Summary
+  type: map
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - name: Total Citations
+      value: 1015 (as of May 2025)
+    - name: h-index
+      value: 11
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Manuscripts in Preparation
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "TissueFormer: A Neural Network for Labeling Tissue from Grouped Single-Cell RNA Profiles - Automated labeling of mouse cortical anatomy from spatial transcriptomics"
+    - "Walking the Weight Manifold: A Topological Approach to Conditioning Inspired by Neuromodulation - Theory (for an AI audience) connecting neuromodulation to network flexibility"
+
+- title: Selected First Author Publications
+  type: time_table
+  contents:
+    - title: "Continual learning with the neural tangent ensemble"
+      institution: Neural Information Processing Systems
+      year: 2024
+      description:
+        - Benjamin, Ari S., Christian Pehle, and Kyle Daruwalla
+        - Spotlight paper
+    - title: "A role for cortical interneurons as adversarial discriminators"
+      institution: PLOS Computational Biology
+      year: 2023
+      description:
+        - Benjamin, Ari S., and Konrad P. Kording
+        - Vol. 19, no. 9, e1011484
+    - title: "Efficient neural codes naturally emerge through gradient descent learning"
+      institution: Nature Communications
+      year: 2022
+      description:
+        - Benjamin, Ari S., Ling-Qi Zhang, Cheng Qiu, Alan A. Stocker, and Konrad P. Kording
+        - Vol. 13, no. 1, pp. 1-12
+    - title: "Measuring and regularizing networks in function space"
+      institution: International Conference on Learning Representations
+      year: 2018
+      description:
+        - Benjamin, Ari S., David Rolnick, and Konrad Kording
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Organizational TA for CIS-522, "Deep Learning"
+      institution: University of Pennsylvania
+      year: 2021
+      description:
+        - Helped organize course infrastructure, train TAs, and develop interactive Python course materials
+        - Available at https://github.com/CIS-522/course-content
+    - title: Neuromatch Academy Course Developer (NMA-CD)
+      institution: Neuromatch Academy
+      year: 2020
+      description:
+        - Developed interactive Python course materials for W3D3 "Causality" and W1D4 "Machine Learning GLM"
+        - Available at https://academy.neuromatch.io/nma2020/course-materials
+    - title: TA for Computational Biology
+      institution: Cold Spring Harbor Laboratory
+      year: 2024
+    - title: TA for Neuromatch Academy (NMA)
+      institution: Neuromatch Academy
+      year: 2020
+      description:
+        - Led 12 neuroscientists (PhDs, Postdocs, and 1 Assis. Prof.) through 15 days of NMA course materials
+        - Provided mentorship for course projects
+    - title: Chemistry Teacher, 10th and 12th grade
+      institution: Colegio Atid, Mexico City
+      year: 2013-2014
+      description:
+        - Taught ~70 students across 3 classes
+        - Built curriculum from scratch, adapting materials to new cultural context and IB curriculum
+        - Guided independent research projects
+
+- title: Conference Organization and Talks
+  type: time_table
+  contents:
+    - title: Organizer
+      institution: "Why networks learn what they do; Insights from deep learning theory for neuroscience"
+      year: 2023
+      description:
+        - Computational and Systems Neuroscience (COSYNE) 2023
+    - title: Young Investigator Talk
+      institution: Statistical Analysis of Neural Data (SAND8)
+      year: 2017
+      description:
+        - "Modern machine learning far outperforms GLMs at predicting spikes"
+    - title: Invited Talk
+      institution: Deep Learning Theory reading group, Montreal Institute for Learning Algorithms (MILA)
+      year: 2018
+
+- title: Mentoring Experience
+  type: nested_list
+  contents:
+    - title: Research Advisor to Master's and Undergraduate Researchers
+      items:
+        - Jordan Lei
+        - Jeffery Chang
+        - Piyush Borole
+        - Ryan Jeong
+        - Ryan Guan
+        - Shizhe Feng
+        - Ashly Pinarkyil
+        - Estelle Shen
+    - title: Other Mentoring Roles
+      items:
+        - Mentor for Mentorship Opportunities for Research Engagement 2015, Northwestern University
+
+- title: Academic Service
+  type: nested_list
+  contents:
+    - title: Reviewing
+      items:
+        - Nature Communications
+        - Nature Neuroscience
+        - NeurIPS (Neural Information Processing Systems)
+        - ICML (International Conference of Machine Learning)
+        - COSYNE (Computational and Systems Neuroscience)
+        - CCN (Cognitive Computational Neuroscience)
+        - eLife
+        - PLoS Computational Biology
+        - Journal of Vision
+        - Nature Scientific Reports
+        - Cell STAR Protocols
+    - title: Volunteer Work
+      items:
+        - Research Scientist Action and Advocacy Network (ScAAN), UPenn Chapter 2020
+    - title: Student Organizations
+      items:
+        - Diversity Initiative for the Advancement of STEAM, Co-secretary 2022
+        - Mechanical Engineering Graduate Student Society, President 2016
+        - Mechanical Engineering Graduate Student Society, Social chair 2015
+
+- title: Media and Outreach
+  type: time_table
+  contents:
+    - title: Science Society Invited Talk
+      institution: Clubhouse
+      year: 2023
+      description:
+        - "Efficient codes naturally emerge via gradient descent learning"
+        - Available at https://www.clubhouse.com/room/m7okjW0E
+    - title: BBC Interview
+      institution: "Elon Musk to show off working brain-hacking device"
+      year: 2020
+      description:
+        - Available at https://www.bbc.com/news/technology-53921596
+    - title: ABC News Radio Interview
+      institution: Tech Trends
+      year: 2020
+      description:
+        - Interviewed for comment on Neuralink
+
+- title: Summer Schools and Courses
+  type: time_table
+  contents:
+    - title: Student - Analytical Connectionism
+      institution: Gatsby Institute for Computational Neuroscience at UCL
+      year: 2023
+      description:
+        - Theoretical neuroscience meets deep learning theory meets psychology
+    - title: TA - Neuromatch Academy (NMA)
+      institution: Computational neuroscience
+      year: 2020
+    - title: Student - Summer Workshop on the Dynamic Brain (SWDB)
+      institution: Allen Institute for Brain Science and University of Washington
+      year: 2017
+      description:
+        - A how-to on accessing and analyzing Allen Institute data
+
+- title: Research Interests
+  type: nested_list
+  contents:
+    - title: Computational Neuroscience
+      items:
+        - Neural network theory and applications
+        - Single-cell transcriptomic analysis
+        - Neuromodulation theory
+    - title: Machine Learning
+      items:
+        - Continual learning
+        - Function space regularization
