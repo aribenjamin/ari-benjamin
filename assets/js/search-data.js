@@ -10,8 +10,8 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-research",
-          title: "research",
-          description: "",
+          title: "Research",
+          description: "My research interests include theoretical neuroscience, machine learning, and neural data analysis.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
@@ -154,7 +154,7 @@ ninja.data = [{
         title: 'Bluesky',
         section: 'Socials',
         handler: () => {
-          window.open("aribenjamin.bsky.social", "_blank");
+          window.open("https://bsky.app/profile/aribenjamin.bsky.social", "_blank");
         },
       },{
         id: 'social-email',
