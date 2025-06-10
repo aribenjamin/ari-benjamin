@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/dissertation/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-why-do-we-love-a-sauna",
         
           title: "Why do we love a sauna?",
