@@ -195,7 +195,6 @@ exclude:
   - _example_posts/*.md
   - _pages/books.md
   - _pages/repositories.md
-  - _pages/research.md
 keep_files:
   - dissertation
   - CNAME
@@ -631,20 +630,20 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# jekyll_get_json:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references
