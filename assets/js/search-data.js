@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/dissertation/";
           },
-        },{id: "post-modes-residues-and-the-meromorphic-geometry-of-recurrent-learning",
+        },{id: "post-the-learning-dynamics-of-recurrent-networks-an-interactive-guide",
         
-          title: "Modes, residues, and the meromorphic geometry of recurrent learning",
+          title: "The learning dynamics of recurrent networks: an interactive guide",
         
-        description: "",
+        description: "Redirecting to the interactive article…",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/rnn-modes/";
+            window.location.href = "/rnn-modes/";
           
         },
       },{id: "post-why-do-we-love-a-sauna",
