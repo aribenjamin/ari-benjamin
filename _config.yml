@@ -197,6 +197,7 @@ exclude:
   - _pages/repositories.md
 keep_files:
   - dissertation
+  - rnn-modes
   - CNAME
   - .nojekyll
 
@@ -224,6 +225,10 @@ plugins:
 defaults:
   - scope:
       path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "rnn-modes"
     values:
       sitemap: false
 

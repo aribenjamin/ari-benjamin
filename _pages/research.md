@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: Research
+title: research
 description: My research interests include theoretical neuroscience, machine learning, and neural data analysis.
 nav: true
 nav_order: 1
