@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-research",
-          title: "Research",
+          title: "research",
           description: "My research interests include theoretical neuroscience, machine learning, and neural data analysis.",
           section: "Navigation",
           handler: () => {
@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/dissertation/";
           },
-        },{id: "post-why-do-we-love-a-sauna",
+        },{id: "post-modes-residues-and-the-meromorphic-geometry-of-recurrent-learning",
+        
+          title: "Modes, residues, and the meromorphic geometry of recurrent learning",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/rnn-modes/";
+          
+        },
+      },{id: "post-why-do-we-love-a-sauna",
         
           title: "Why do we love a sauna?",
         
