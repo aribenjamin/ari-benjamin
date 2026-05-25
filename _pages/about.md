@@ -6,7 +6,7 @@ subtitle: <a href='https://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>.
 
 profile:
   align: right
-  image: Ari_Benjamin.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: 
 
