@@ -52,8 +52,8 @@
         .site-nav { padding: 12px 16px; font-size: 13px; }
       }
     </style>
-    <script type="module" crossorigin src="/rnn-modes/assets/index-Bot8EK80.js"></script>
-    <link rel="stylesheet" crossorigin href="/rnn-modes/assets/index-CYI5Qt-B.css">
+    <script type="module" crossorigin src="/rnn-modes/assets/index-DGKDS0Lm.js"></script>
+    <link rel="stylesheet" crossorigin href="/rnn-modes/assets/index-B3MS5nCy.css">
   </head>
   <body>
     <nav class="site-nav">
@@ -449,6 +449,13 @@
         </p>
 
         <p>
+          As soon as $b$ projects into an eigenmode of $W$, or $c$
+          projects out of one, there's learning pressure on both to grow
+          further. They pull on each other until the mode is fully on.
+          This is the same thing as a pole and a zero separating, in mechanistic terms.
+        </p>
+
+        <p>
           Note that this point is a saddle of the
           full loss only as long as the other modes are also at minima of their
           restricted losses. We are only looking at the loss along this one mode. 
@@ -471,13 +478,42 @@
         <h2>The staircase, decoded</h2>
 
         <p>
-          We're now prepared to actually look at the dynamics of training our recurrent linear 
-          network. Play around for this playground for a while. Notice especially how the 
-          step-like learning behavior manifests. Each step is one pole–zero pair
-          separating in the complex plane — one mode escaping its saddle.
+          We're now prepared to actually look at the dynamics of training
+          our recurrent linear network. There are three things to take away
+          from the widget below. First, BPTT on the direct $(W, b, c)$
+          parameterisation really does produce a staircase — saddle-to-saddle
+          learning is not an artefact of the modal-coordinate picture we used
+          to derive it. Second, each cliff in the loss curve corresponds to
+          one pole–zero pair separating on the z-plane and one new mode
+          appearing in the frequency response $|H(e^{i\theta})|$. And third,
+          how clean the staircase looks depends on the initialisation scale
+          $\sigma_0$: at small $\sigma_0$ the plateaus are crisp and
+          well-separated; raise $\sigma_0$ and the steps blur into a single
+          smooth descent.
+        </p>
+
+        <p>
+          Scrub the τ slider to watch a recorded run. Vary $\sigma_0$ and
+          press <em>new run</em> to confirm the three points above.
         </p>
 
         <div id="widget-decoded-staircase" class="widget-slot widget-l-page"></div>
+
+        <p>
+          Now try the input toggle. Changing $u$ does not just stress-test
+          the same problem — it changes the loss landscape itself, since the
+          training target is $y^{\ast} = g^{\ast} \!\ast u$. With the
+          <strong>impulse</strong>, you are fitting the impulse response
+          $g^{\ast}$ directly, and every target mode contributes equally to
+          the loss. <strong>White noise</strong> weights all frequencies
+          equally too (Parseval), so every mode is still visible to the
+          gradient, but the residue updates are noisier. <strong>1/f (pink)
+          noise</strong> concentrates power at low frequencies, so a target
+          mode whose pole sits at high $|\arg p|$ contributes very little
+          to the loss — and may never separate from its zero within the
+          training budget. A mode the input cannot excite is invisible to
+          gradient descent.
+        </p>
 
       </section>
 
