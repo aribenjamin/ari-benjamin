@@ -87,12 +87,14 @@
       <div class="teaser-text">
         <p class="teaser-eyebrow">TL;DR: The modes are pole/zero separations of the transfer function</p>
         <p>
-          Train a linear recurrent network with small initialization on a
-          structured target and its loss drops in a <strong>staircase</strong>.
-          Each plateau lands on the loss of the <strong>best degree-$k$
-          rational approximation</strong> to the underlying true transfer function.
-          The learning dynamics are saddle-to-saddle, and each saddle is a
-          <strong>cancellation between a pole and a zero</strong> of the transfer function.
+          Train a linear recurrent network with scalar inputs and a scalar output. If it has
+          a small initialization, its loss drops in a <strong>staircase</strong>.
+          We can understand these modes by analyzing the transfer function, which we provide an
+          introduction to below. We find that the network's transfer function brings one pole online
+          at a time, because each saddle in the loss landscape corresponds to a pole-zero separation.
+          Each learning plateau can be nicely understood as the
+          the best approximation to the underlying true transfer function, restricted 
+          to having $k$ poles. 
         </p>
       </div>
     </section>
