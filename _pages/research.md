@@ -19,9 +19,7 @@ Much of my ongoing research is about building a connectionist framework for unde
 
 ### Machine learning for single-cell data analysis
 
-I am currently developing machine learning methods to analyze single-cell RNA sequencing data, focusing on how cellular diversity influences neural circuit function.
-
-Stay tuned!
+I develop machine learning methods for single-cell RNA sequencing data, with a focus on how the cellular composition of a sample determines its population-level phenotype. In *TissueFormer* (BMC Bioinformatics, 2026), I introduced a transformer that predicts sample-level labels from groups of single cells while retaining single-cell resolution — applying it to predict COVID-19 severity from blood scRNA-seq and to identify cortical areas from mouse spatial transcriptomics.
 
 <div class="publications">
   {% bibliography --query @*[keywords ~= single-cell] --group_by none %}

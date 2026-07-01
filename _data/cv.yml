@@ -7,6 +7,7 @@
       description:
         - "Advisor: Tony Zador"
         - Neural networks for single-cell transcriptomic analysis
+        - "TissueFormer: predicting population-level phenotypes from single cells (BMC Bioinformatics, 2026)"
         - Theory of neuromodulation; neuro-inspired AI
 
 - title: Education
