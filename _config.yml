@@ -9,9 +9,9 @@ last_name: Benjamin
 contact_note: >
   I get too few personal emails. Send me one!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ari Benjamin's academic website.
-footer_text: 
-keywords: 
+  Ari Benjamin — how and why neural networks learn what they do. Neural network theory, continual learning, and computational neuroscience.
+footer_text:
+keywords: neural networks, deep learning theory, learning dynamics, continual learning, computational neuroscience, language models
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

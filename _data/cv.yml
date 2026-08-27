@@ -6,9 +6,10 @@
       year: Aug. 2022 - 
       description:
         - "Advisor: Tony Zador"
-        - Neural networks for single-cell transcriptomic analysis
-        - "TissueFormer: predicting population-level phenotypes from single cells (BMC Bioinformatics, 2026)"
-        - Theory of neuromodulation; neuro-inspired AI
+        - "Theory of learning in neural networks: continual learning via the neural tangent ensemble (NeurIPS 2024)"
+        - "Designed and trained TissueFormer, a transformer extending single-cell foundation models to population-level phenotypes (BMC Bioinformatics, 2026)"
+        - Uncertainty-aware objectives for language model post-training
+        - Connectionist theories of neuromodulation; neuro-inspired AI
 
 - title: Education
   type: time_table
@@ -62,6 +63,15 @@
         - Built curriculum from scratch, adapting materials to new cultural context and IB curriculum
         - Guided independent research projects
 
+- title: Conference Organization
+  type: time_table
+  contents:
+    - title: "Why networks learn what they do; Insights from deep learning theory for neuroscience"
+      year: 2023
+      institution: Computational and Systems Neuroscience (COSYNE) 2023
+      description:
+        - Co-organized workshop on deep learning theory as a lens for neuroscience
+
 - title: Academic Service
   type: nested_list
   contents:
@@ -86,13 +96,6 @@
         - Diversity Initiative for the Advancement of STEAM, Co-secretary 2022
         - Mechanical Engineering Graduate Student Society, President 2016
         - Mechanical Engineering Graduate Student Society, Social chair 2015
-
-- title: Conference Organization
-  type: time_table
-  contents:
-    - title: "Why networks learn what they do; Insights from deep learning theory for neuroscience"
-      year: 2023
-      institution: Computational and Systems Neuroscience (COSYNE) 2023
 
 - title: Conference Posters
   type: time_table
@@ -155,6 +158,8 @@
     - title: Student - Analytical Connectionism
       institution: Gatsby Institute for Computational Neuroscience at UCL
       year: 2023
+      description:
+        - Selected student; co-authored the school's published lecture notes (PMLR v320) with faculty including Andrew Saxe and James McClelland
     - title: TA - Neuromatch Academy (NMA)
       institution: Computational neuroscience
       year: 2020
